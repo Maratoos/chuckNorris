@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding-top: 128px;
+}
+
+.input-holder {
+  width: 626px;
+  height: 104px;
+  margin: 0 auto;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.mainInput {
+  color: #656ec2;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  outline: none;
+  border: none;
+  box-shadow: 0px 7px 25px 0px rgba(100, 100, 111, 0.2);
+  max-width: 100%;
+  width: 587px;
+  height: 64px;
+  padding-left: 36px;
+}
+
+.totalJokes {
+  color: #282626;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 36px;
+  text-align: left;
+}
+
+@media (max-width: 680px) {
+  .mainInput {
+    width: 500px;
+  }
+  .totalJokes {
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .mainInput {
+    width: 400px;
+  }
+  .totalJokes {
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .mainInput {
+    width: 280px;
+  }
+}
